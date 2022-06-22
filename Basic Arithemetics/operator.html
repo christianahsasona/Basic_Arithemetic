@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JS OPERATION</title>
+
+</head>
+<body>
+<p>12 + 2 =<b id="add"></b></p>
+<p>15 - 5 = <b id="subtract"></b></p>
+<p> 4 * 8 = <b id="multiply"></b></p>
+<p>50 / 5 = <b id="divide"></b></p>
+
+<script>
+var num1,num2;
+function add(num1,num2){
+     return num1+num2;
+}
+    
+function subtract(num1,num2){
+    return num1-num2;
+}
+    
+function multiply(num1,num2){
+    return num1*num2;
+}
+    
+function divide(num1,num2){
+  return num1/num2;
+}
+document.getElementById("add").innerHTML=add(12,2);
+document.getElementById("subtract").innerHTML=subtract(15,5);
+document.getElementById("multiply").innerHTML=multiply(4,8);
+document.getElementById("divide").innerHTML=divide(50,5);
+</script>
+</body>
+</html>
